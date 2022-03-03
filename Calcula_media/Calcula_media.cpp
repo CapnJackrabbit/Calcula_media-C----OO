@@ -16,9 +16,9 @@ public:
         this->nome = nome;
     }
 
-    void set_media(float nota1, float nota2)                        // Setter de média
+    void set_media(float nota1, float nota2)                        // Setter de mÃ©dia
     {
-        media = ((nota1 + nota2) / 2);
+        this->media = ((nota1 + nota2) / 2);
     }
 
     string retorna_nome()                                           // Getter de nome
@@ -26,7 +26,7 @@ public:
         return nome;
     }
 
-    float retorna_media()                                           // Getter de média
+    float retorna_media()                                           // Getter de mÃ©dia
     {
         return media;
     }
@@ -49,5 +49,5 @@ int main()
 
     Aluno media_notas(nome, n1, n2);
 
-    cout << "A média das notas de "<<media_notas.retorna_nome() <<" e " << media_notas.retorna_media();
+    cout << "A mÃ©dia das notas de "<<media_notas.retorna_nome() <<" e " << media_notas.retorna_media();
 }
